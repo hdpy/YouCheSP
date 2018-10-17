@@ -1,0 +1,20 @@
+/* pages/product/deposit.wxss */
+.carOwner-top-view{background-color: #fff;border-radius: 10rpx;display: flex;height: 100%;}
+.img{flex: 0 0 200rpx;overflow: hidden;text-align: center;position: relative;margin-left: 10rpx;}
+.img image{width: 200rpx;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.carOwner-view1{flex: 0 auto;height: 100%;padding: 30rpx;box-sizing: border-box;}
+.name{font-size: 30rpx;color: #343434;font-weight: 600;line-height: 40rpx;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;word-break: break-all;-webkit-line-clamp:2;-webkit-box-orient: vertical;height: 120rpx;}
+.color{font-size: 26rpx;color: #999;}
+
+.deposit{min-height: 100vh;background-color: #f8f8f8;}
+.address-list{display: flex;background-color: #fff;border-bottom: 1rpx solid #f8f8f8;padding: 30rpx 0;}
+.list1{flex: 0 0 200rpx;font-size: 26rpx;font-weight: bold;color: #333333;text-align: center;}
+.list2{flex: auto;}
+.text1{font-size: 26rpx;font-weight: 600;color: #000000;line-height: 46rpx;}
+.text2{font-size: 24rpx;color: #666666;line-height: 46rpx;}
+.text3{font-size: 24rpx;color: #5f93ff;}
+
+.deposit-btn{height: 100rpx;line-height: 100rpx;background-color: #fff;position: fixed;bottom: 0;width: 100%;display: flex;}
+.deposit-btn-1{font-size: 24rpx;color: #666;flex: auto;margin-left: 30rpx;}
+.deposit-btn-1 text{font-size: 32rpx;font-weight: bold;color: #5f93ff;}
+.deposit-btn-2{flex: 0 0 200rpx;text-align: center;font-size: 30rpx;font-weight: 600;color: #fff;background-color: #5f93ff}

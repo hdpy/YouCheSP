@@ -1,0 +1,117 @@
+<!--pages/distribution/distribution.wxml-->
+<view class='distribution'>
+  <view class='distribution-top'>
+    <view class='distribution-bg'></view>
+    <image class='distribution-top-img1' src='../images/distribution-1.png' mode='widthFix'></image>
+    <navigator url='rules' hover-class='none'>
+      <view class='hdgz'>
+        <image src='../images/hdgz.png' mode='widthFix'></image>
+        <view class='hdgz-text'>活动规则</view>
+      </view>
+    </navigator>
+  </view>
+  <view class='distribution-div2'>
+    <view class='rebate'>每月领万元现金返利</view>
+    <navigator url='join' hover-class='none'>
+      <view class='join-now'>立即加入</view>
+    </navigator>
+  </view>
+  <view class='distribution-jh'>
+    <image src='../images/distribution-2.png' mode='widthFix'></image>
+    <view class='distribution-tit'>
+      <text class=''>分销商政策</text>
+    </view>
+    <view class='distribution-jh-ul'>
+      <view class='distribution-jh-ul-li'>
+        <view class='jh-icon'>
+          <icon class='iconfont icon-qian1'></icon>
+        </view>
+        <view class='jh-text'>3000元/台</view>
+        <view class='jh-text'>现金返利</view>
+      </view>
+      <view class='distribution-jh-ul-li'>
+        <view class='jh-icon'>
+          <icon class='iconfont icon-maiche'></icon>
+        </view>
+        <view class='jh-text'>“0基础”</view>
+        <view class='jh-text'>卖车</view>
+      </view>
+      <view class='distribution-jh-ul-li'>
+        <view class='jh-icon'>
+          <icon class='iconfont icon-shenqing1'></icon>
+        </view>
+        <view class='jh-text'>免费</view>
+        <view class='jh-text'>无门槛申请</view>
+      </view>
+      <view class='distribution-jh-ul-li'>
+        <view class='jh-icon'>
+          <icon class='iconfont icon-haoyou'></icon>
+        </view>
+        <view class='jh-text'>邀请好友</view>
+        <view class='jh-text'>多级分销返利</view>
+      </view>
+    </view>
+  </view>
+  <view class='distribution-join'>
+    <view class='distribution-tit'>
+      <text class=''>友车汽车分销特色</text>
+    </view>
+  </view>
+  <view class='distribution-join-ul'>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-1'></icon>
+      </view>
+      <view class='join-li-text'>10%\n首付</view>
+    </view>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-shuzi2'></icon>
+      </view>
+      <view class='join-li-text'>长至\n48期</view>
+    </view>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-3'></icon>
+      </view>
+      <view class='join-li-text'>超低\n月供</view>
+    </view>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-4'></icon>
+      </view>
+      <view class='join-li-text'>急速\n审核</view>
+    </view>
+  </view>
+  <view class='distribution-join'>
+    <view class='distribution-tit'>
+      <text class=''>怎样加入分销</text>
+    </view>
+  </view>
+  <view class='distribution-join-ul'>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-1'></icon>
+      </view>
+      <view class='join-li-text'>实名\n认证</view>
+    </view>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-shuzi2'></icon>
+      </view>
+      <view class='join-li-text'>支付宝\n账号</view>
+    </view>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-3'></icon>
+      </view>
+      <view class='join-li-text'>同意\n合同</view>
+    </view>
+    <view class='distribution-join-li'>
+      <view class='join-li-icon'>
+        <icon class='iconfont icon-4'></icon>
+      </view>
+      <view class='join-li-text'>确定\n加入</view>
+    </view>
+  </view>
+</view>

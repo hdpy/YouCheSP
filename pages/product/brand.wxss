@@ -1,0 +1,7 @@
+/* pages/product/brand.wxss */
+.brand-li-tit{height: 66rpx;line-height: 66rpx;background-color: #f2f2f2;color: #8e9cae;font-size: 28rpx;font-weight: bold;padding-left: 30rpx;}
+.brand-li-list{line-height: 100rpx;height: 100rpx;color: #666666;font-size: 26rpx;display: flex;border-bottom: 1rpx solid #f8f8f8;font-weight: 600}
+.brand-li-list image{width: 40rpx;margin: 30rpx 30rpx;}
+
+.right-nav{width: 50rpx;position: fixed;right: 0;z-index: 100;top: 50%;transform: translateY(-50%);}
+.right-nav-li{height: 36rpx;text-align: center;line-height: 30rpx;font-size: 24rpx;color: #666666;font-weight: 600;}

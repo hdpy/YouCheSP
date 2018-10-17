@@ -1,0 +1,21 @@
+/* pages/distribution/moneyIs.wxss */
+.moneyIs{min-height: 100vh;background-color: #f0f0f0;}
+.moneyIs-top{height: 225rpx;background: linear-gradient(145deg,#fecd67, #fecd67);text-align: center;}
+.moneyIs-top-t1{font-size: 28rpx;color: #bb7611;padding-top: 50rpx;font-weight: 600;}
+.moneyIs-top-t2{font-size: 46rpx;color: #fff8e3;font-weight: bold;line-height: 60rpx;}
+
+.moneyIs-top-line{height: 80rpx;background-color: #fac55c;display: flex;padding: 10rpx 0;box-shadow: 0px 10rpx 20rpx 0rpx #f1d9a8;}
+.line-li{flex: 1;position: relative;text-align: center}
+.after-li::after{content: "";height: 40rpx;width: 4rpx;background-color: #fff8e3;position: absolute;top: 20rpx;right: 0}
+.line-li-t2{font-size: 36rpx;color: #fff8e3;font-weight: bold;}
+.line-li-t1{font-size: 22rpx;color: #bb7611;font-weight: 600}
+
+.moneyIs-cont{text-align: center;}
+.moneyIs-cont image{width: 200rpx;margin: 100rpx 0 50rpx}
+.my-invite-null{font-size: 24rpx;}
+
+.moneyIs-btn{box-sizing: border-box;padding: 0 30rpx;position: absolute;bottom: 50rpx;width: 100%;display: flex;}
+.moneyIs-btn navigator{flex: 1;}
+.moneyIs-btn button{height: 80rpx;line-height: 80rpx;border-radius: 0;border: none;font-size: 24rpx;font-weight: 600;box-shadow: 0px 10rpx 20rpx 0rpx #888888;}
+.yaoqing{background-color: #ffd38a;color: #3b342e;}
+.tixian{background-color: #a29e9b;color: #ece8e9;}

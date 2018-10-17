@@ -1,0 +1,18 @@
+/* pages/personal/carOwner.wxss */
+.carOwner-top{height: 300rpx;box-sizing: border-box;padding: 30rpx;background: linear-gradient(to bottom,#5f93ff, #0f8dea);}
+.carOwner-top-view{background-color: #fff;border-radius: 10rpx;display: flex;height: 100%;}
+.img{flex: 0 0 200rpx;overflow: hidden;text-align: center;position: relative;margin-left: 10rpx;}
+.img image{width: 200rpx;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.carOwner-view1{flex: 0 0 320rpx;height: 100%;padding: 30rpx;box-sizing: border-box;}
+.name{font-size: 30rpx;color: #343434;font-weight: 600;line-height: 40rpx;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;word-break: break-all;-webkit-line-clamp:3;-webkit-box-orient: vertical;height: 120rpx;}
+.color{font-size: 26rpx;color: #999;margin-top: 20rpx;}
+.carOwner-view2{flex: 0 0 160rpx;line-height: 240rpx;}
+.carOwner-view2 text{height: 50rpx;font-size: 24rpx;color: 
+#5f93ff;font-weight: bold}
+
+.carOwner-mid{display: flex;flex-flow: wrap;padding:  0 0 40rpx 0 ;}
+.carOwner-mid-li{flex: 0 0 50%;text-align: center;margin-top: 40rpx;}
+.carOwner-mid-li icon{color: #5f93ff;}
+.text{font-size: 24rpx;color: #3f3f3f;line-height: 50rpx;}
+.carOwner-bot{box-sizing: border-box;padding:  0 30rpx;}
+.bot-tit{line-height: 80rpx;font-size: 26rpx;font-weight: bold;}

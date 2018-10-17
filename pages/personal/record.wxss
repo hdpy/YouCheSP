@@ -1,0 +1,19 @@
+/* pages/personal/record.wxss */
+.jf{background-color: #f4f4f4;min-height: calc(100vh - 80rpx);border-top: 1rpx solid #ddd;box-sizing: border-box}
+.jf-li{height: 120rpx;border-bottom: 1rpx solid #ddd;padding: 10rpx 30rpx;box-sizing: border-box;display: flex;}
+.jf-attr{flex: 7;}
+.jf-attr .jf-detail-name{font-size: 30rpx;color: #000;line-height: 60rpx;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-weight: bold;}
+.jf-attr .jf-detail-num{font-size: 24rpx;color: #999;line-height: 40rpx;}
+.jf-time{flex: 2;text-align: right;font-size: 36rpx;line-height: 100rpx;font-weight: bold;}
+
+
+.order-class{height:80rpx;
+width:100%;
+background-color:#fff;
+display:flex;
+}
+.order-item{flex: 1;text-align: center;line-height: 80rpx;font-size: 30rpx;color: #666;}
+
+.order-class .active text{font-weight: bold;font-size: 30rpx;color: #333;border-bottom: 4rpx solid #5f93ff;line-height: 80rpx;display: inline-block;height: 76rpx;}
+
+.record-null{height: calc(100vh - 80rpx)}

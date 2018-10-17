@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/filtrate",
+    "pages/product/detail",
+    "pages/product/allModel",
+    "pages/product/deposit",
+    "pages/distribution/moneyIs",
+    "pages/distribution/moneyNone",
+    "pages/distribution/moneyAll",
+    "pages/distribution/isDistribution",
+    "pages/distribution/distribution",
+    "pages/distribution/join",
+    "pages/distribution/rules",
+    "pages/distribution/inviteWay",
+    "pages/product/list",
+    "pages/product/brand",
+    "pages/personal/carOwner",
+    "pages/personal/personal",
+    "pages/personal/collection",
+    "pages/personal/coupon",
+    "pages/personal/assets",
+    "pages/personal/record",
+    "pages/personal/topUp",
+    "pages/login/login",
+    "pages/personal/help",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5f93ff",
+    "navigationBarTitleText": "友车",
+    "navigationBarTextStyle": "ffffff"
+  },
+  "tabBar": {
+    "color": "#373737",
+    "selectedColor": "#2279fa",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/nav_1_active.png",
+        "iconPath": "pages/images/nav_1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/nav_2_active.png",
+        "iconPath": "pages/images/nav_2.png",
+        "pagePath": "pages/product/list",
+        "text": "选车"
+      },
+      {
+        "selectedIconPath": "pages/images/nav_3_active.png",
+        "iconPath": "pages/images/nav_3.png",
+        "pagePath": "pages/distribution/distribution",
+        "text": "赚钱"
+      },
+      {
+        "selectedIconPath": "pages/images/nav_4_active.png",
+        "iconPath": "pages/images/nav_4.png",
+        "pagePath": "pages/personal/personal",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/personal/help.wxml-->
+<view class='help'>
+  <scroll-view scroll-y>
+    <block wx:for="{{helpList}}">
+      <view class='item'>
+        <view class='item-tit' bindtap='helpContShow' data-id='{{item.id}}'>
+          <text wx:if='{{item.stat}}' class='item-icon'>Q:</text>{{item.tit}}
+        </view>
+        <view class='item-cont' wx:if='{{item.stat}}'>
+          <text class='item-icon'>A:</text> {{item.cont}}
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</view>

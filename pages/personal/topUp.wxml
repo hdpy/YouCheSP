@@ -1,0 +1,13 @@
+<!--pages/personal/topUp.wxml-->
+<view class='topUp'>
+  <view class='topUp-price'>
+    <input type='number' placeholder='每日最高充值10000元' placeholder-class='pla-class' value='{{verificationCode}}' bindinput='verificationCode' maxlength='5'></input>
+    <view class='verificationCode' wx:if='{{verificationCode}}' bindtap='clearVerificationCode'>
+      <icon type='clear' size='20'></icon>
+    </view>
+    <view class='tit'>金额</view>
+  </view>
+  <view class='topUp-btn'>
+    <button style="background-color: {{(verificationCode.length > 0) ? '#5f93ff!important' : '#e9ebec!important'}};color: {{(verificationCode.length > 0) ? '#fff!important' : '#bbbbbb!important'}}">下一步</button>
+  </view>
+</view>

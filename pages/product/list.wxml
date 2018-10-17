@@ -1,0 +1,63 @@
+<!--pages/product/list.wxml-->
+<view class='index-top'>
+  <view class='address'>
+    南昌
+    <icon class='iconfont icon-a_down'></icon>
+  </view>
+  <view class='search'>
+    <input type='text' placeholder='想找什么车？' placeholder-class='place'></input>
+    <icon type='search' color='#626262' size='18'></icon>
+  </view>
+</view>
+<view class='select-class'>
+  <navigator url='' hover-class='none'>
+    <view class='select-li'>
+      <text>综合排序</text>
+      <icon class='iconfont icon-a_down'></icon>
+    </view>
+  </navigator>
+  <navigator url='brand' hover-class='none'>
+    <view class='select-li'>
+      <text>品牌</text>
+      <icon class='iconfont icon-a_down'></icon>
+    </view>
+  </navigator>
+  <navigator url='filtrate' hover-class='none'>
+    <view class='select-li'>
+      <text>筛选</text>
+      <icon class='iconfont icon-shaixuan'></icon>
+    </view>
+  </navigator>
+</view>
+<view class='search-name'>
+  <view class='search-name-text'>
+    <view class='search-name-item'>
+      <text class='text-s'>高端上大气的五菱宏光</text>
+      <icon class='iconfont icon-guanbi'></icon>
+    </view>
+  </view>
+  <view class='search-name-reset'>
+    <icon class='iconfont icon-zhongzhi'></icon>
+    <text class='text-s'>重置</text>
+  </view>
+</view>
+<scroll-view scroll-y class='pro-list'>
+  <view class='product-LIST'>
+    <navigator url='detail' wx:for="{{item_list}}">
+      <view class='product-LIST-li'>
+        <view class='product-LIST-img'>
+          <image src="{{item.img}}" class="slide-image" mode='widthFix' />
+        </view>
+        <view class='product-LIST-name'>{{item.title}}</view>
+        <view class='product-LIST-label'>
+          <icon class='iconfont '></icon>
+          <!-- <text class='text-label'>热销爆款</text> -->
+        </view>
+        <view class='product-LIST-attr'>
+          <view class='price1'>指导价：￥{{item.price}}</view>
+          <view class='price2'>定金：￥{{item.deposit}}</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</scroll-view>

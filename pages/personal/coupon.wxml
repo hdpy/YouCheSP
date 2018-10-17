@@ -1,0 +1,12 @@
+<!--pages/personal/coupon.wxml-->
+<view class='coupon'>
+  <view class='coupon-null'>
+    <icon class='iconfont icon-meiyouyouhuiquan'></icon>
+    <navigator url='../product/detail' hover-class='none' class='coupon-btn'>
+        <text>先去看看车</text>
+    </navigator>
+  </view>
+  <view class='null-mess'>
+    没有更多了~
+  </view>
+</view>
