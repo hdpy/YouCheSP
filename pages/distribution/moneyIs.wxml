@@ -1,0 +1,33 @@
+<!--pages/distribution/moneyIs.wxml-->
+<view class='moneyIs'>
+  <view class='moneyIs-top'>
+    <view class='moneyIs-top-t1'>一共赚了佣金</view>
+    <view class='moneyIs-top-t2'>￥0.00</view>
+  </view>
+  <view class='moneyIs-top-line'>
+    <view class='line-li after-li'>
+      <view class='line-li-t2'>￥0.00</view>
+      <view class='line-li-t1'>已提现金额</view>
+    </view>
+    <view class='line-li'>
+      <view class='line-li-t2'>￥0.00</view>
+      <view class='line-li-t1'>提现中金额</view>
+    </view>
+  </view>
+
+  <view class='moneyIs-cont'>
+    <image src='../images/null.png' mode='widthFix'></image>
+    <view class='my-invite-null'>
+      暂没有邀请到好友，点击下方按钮邀请好友购车吧
+    </view>
+  </view>
+
+  <view class='moneyIs-btn'>
+    <navigator url='inviteWay' hover-class='none'>
+      <button class='yaoqing'>邀请好友去白赚</button>
+    </navigator>
+    <navigator url='' hover-class='none'>
+      <button class='tixian'>立即提现</button>
+    </navigator>
+  </view>
+</view>

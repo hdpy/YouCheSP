@@ -1,0 +1,64 @@
+<!--pages/personal/collection.wxml-->
+<view class='collection'>
+  <view class='product-LIST'>
+    <view class='product-LIST-li'>
+      <view class='product-LIST-img'>
+        <image src="../images/pro1.jpg" class="slide-image" mode='widthFix' />
+      </view>
+      <view class='product-LIST-name'>比亚迪唐 2018款 2.0T 自动智联尊贵型</view>
+      <view class='product-LIST-label'>
+        <icon class='iconfont icon-quan'></icon>
+        <text class='text-label'>热销爆款</text>
+      </view>
+      <view class='product-LIST-attr'>
+        <view class='price1'>首付1.55万</view>
+        <view class='price2'>月供4821元</view>
+      </view>
+    </view>
+    <view class='product-LIST-li'>
+      <view class='product-LIST-img'>
+        <image src="../images/pro1.jpg" class="slide-image" mode='widthFix' />
+      </view>
+      <view class='product-LIST-name'>比亚迪唐 2018款 2.0T 自动智联尊贵型</view>
+      <view class='product-LIST-label'>
+        <icon class='iconfont icon-quan'></icon>
+        <text class='text-label'>热销爆款</text>
+      </view>
+      <view class='product-LIST-attr'>
+        <view class='price1'>首付1.55万</view>
+        <view class='price2'>月供4821元</view>
+      </view>
+    </view>
+    <view class='product-LIST-li'>
+      <view class='product-LIST-img'>
+        <image src="../images/pro1.jpg" class="slide-image" mode='widthFix' />
+      </view>
+      <view class='product-LIST-name'>比亚迪唐 2018款 2.0T 自动智联尊贵型</view>
+      <view class='product-LIST-label'>
+        <icon class='iconfont icon-quan'></icon>
+        <text class='text-label'>热销爆款</text>
+      </view>
+      <view class='product-LIST-attr'>
+        <view class='price1'>首付1.55万</view>
+        <view class='price2'>月供4821元</view>
+      </view>
+    </view>
+    <view class='product-LIST-li'>
+      <view class='product-LIST-img'>
+        <image src="../images/pro1.jpg" class="slide-image" mode='widthFix' />
+      </view>
+      <view class='product-LIST-name'>比亚迪唐 2018款 2.0T 自动智联尊贵型</view>
+      <view class='product-LIST-label'>
+        <icon class='iconfont icon-quan'></icon>
+        <text class='text-label'>热销爆款</text>
+      </view>
+      <view class='product-LIST-attr'>
+        <view class='price1'>首付1.55万</view>
+        <view class='price2'>月供4821元</view>
+      </view>
+    </view>
+  </view>
+  <view class='null-mess'>
+    没有更多了~
+  </view>
+</view>

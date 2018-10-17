@@ -1,0 +1,15 @@
+/* pages/distribution/inviteWay.wxss */
+.inviteWay{box-sizing: border-box;padding: 20rpx 30rpx;min-height: 100%;}
+.inviteWay-li{box-sizing: border-box;padding: 60rpx 50rpx;box-shadow: 0px 10rpx 20rpx 0rpx #888888;background-color: #4d4b4b;border-radius: 10rpx;margin-top: 30rpx;}
+.text1{color:#eedebb;font-size: 40rpx;font-weight: bold;}
+.text2{color:#eedebb;font-size: 28rpx;}
+.inviteWay-btn{height: 70rpx;line-height: 70rpx;margin-top: 30rpx;display: flex;}
+.inviteWay-btn .btn1{height: 70rpx;line-height: 66rpx;flex: 0 0 45%;border: 2rpx solid #eedebb;background-color: transparent;box-sizing: border-box;}
+.inviteWay-btn .btn1 icon{color: #eedebb;font-size: 28rpx;margin-right: 10rpx;}
+.inviteWay-btn .btn1 text{color: #eedebb;font-size: 24rpx;font-weight: 600;}
+.inviteWay-btn .btn1:first-child{margin-right: 5%;}
+.inviteWay-btn .btn1:last-child{margin-left: 5%;}
+
+.show-tell{margin-top: 20rpx;text-align: right}
+.show-tell text{font-size: 24rpx;margin-left: 10rpx;position: relative;top: -6rpx}
+.show-tell icon{display: initial}

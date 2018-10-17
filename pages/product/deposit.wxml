@@ -1,0 +1,40 @@
+<!--pages/product/deposit.wxml-->
+<view class='deposit'>
+  <view class='carOwner-top-view'>
+    <view class='img'>
+      <image src='../images/pro1.jpg' mode='widthFix'></image>
+    </view>
+    <view class='carOwner-view1'>
+      <view class='name'>玛莎拉蒂 GranTurismo 2018款 4.2 自动 标准版</view>
+      <view class='color'>黑色</view>
+    </view>
+  </view>
+  <view class='all-line'></view>
+  <view class='deposit-address'>
+    <view class='address-list'>
+      <view class='list1'>
+        购车门店
+      </view>
+      <view class='list2'>
+        <view class='text1'>友车南昌体验馆</view>
+        <view class='text2'>青山湖区上海路321号</view>
+      </view>
+    </view>
+    <view class='address-list'>
+      <view class='list1'>
+        收货人
+      </view>
+      <view class='list2'>
+        <view class='text1'>张启长</view>
+        <view class='text2'>362330000000000000</view>
+        <view class='text3'>仅限本人提车，且需持有本人有效驾驶证</view>
+      </view>
+    </view>
+  </view>
+  <view class='deposit-btn'>
+    <view class='deposit-btn-1'>
+      定金:<text>￥2000</text>
+    </view>
+    <view class='deposit-btn-2'>立即支付</view>
+  </view>
+</view>

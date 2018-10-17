@@ -1,0 +1,11 @@
+/* pages/personal/assets.wxss */
+.assets-top{display: flex;width: 100%;margin-top: 100rpx;}
+.assets-item{flex: 1;}
+.assets-item-name{text-align: center;font-size: 22rpx;color: #777777;margin-bottom: 10rpx;}
+.assets-item-number{text-align: center;font-size: 50rpx;color: #333333;font-weight: bold}
+.assets-item-list{box-sizing: border-box;padding: 0 30rpx;text-align: center}
+.list-li{height: 50rpx;text-align: center;padding: 0 25rpx;line-height: 50rpx;font-size: 24rpx;color: #333;display: inline-block}
+.cz icon{font-size: 24rpx;color: #fcd04f;display: inline}
+.tx icon{font-size: 24rpx;color: #4391f5}
+.list-t{font-size: 24rpx;color: #333;margin-left: 5rpx;}
+.assets-detail{position: absolute;top: 20rpx;right: 20rpx;font-size: 24rpx;color: #999; }

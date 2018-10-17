@@ -1,0 +1,36 @@
+/* pages/distribution/distribution.wxss */
+.distribution{width: 100%;min-height: 100vh;background-color: #fff929;}
+.distribution-top{font-size: 0;}
+.distribution-top .distribution-top-img1{width: 100%;}
+.hdgz{position: absolute;top: 50rpx;left: 30rpx;height: 120rpx;width: 120rpx;text-align: center;border-radius: 50%;background-color: #fff929;}
+.hdgz image{width: 100%;height: 100%;}
+.hdgz-text{height: 40rpx;line-height: 40rpx;font-size: 24rpx;font-weight: bold;color: #fff929;position: absolute;top: 0;left: 0;width: 100%;background-color: #f53461;margin-top: 40rpx;}
+.distribution-bg{background-color: #f53461;height: 160rpx;}
+
+.distribution-div2{text-align: center;padding: 30rpx 0;}
+.rebate{line-height: 100rpx;font-size: 46rpx;font-weight: 800;color: #080808;}
+.join-now{font-size: 30rpx;font-weight: 600;width: 250rpx;height: 60rpx;line-height: 60rpx;background-color: #f53461;margin: 30rpx auto;border-radius: 30rpx;color: #fff929}
+
+.distribution-tit{color:#3f4359;
+font-size:36rpx;
+position:relative;
+line-height:1;
+font-weight: 700;
+padding-left: 20rpx;
+}
+.distribution-tit::after{height: 34rpx;width: 6rpx;background-color: #f53461;content: "";display: block;position: absolute;bottom: 1rpx;left: 0rpx}
+
+.distribution-jh{width: 650rpx;margin: 0 auto;position: relative;box-sizing: border-box;padding: 140rpx 50rpx 50rpx;height: 800rpx;}
+.distribution-jh image{width: 100%;position: absolute;top: 0;left: 0;}
+.distribution-jh-ul{display: flex;flex-flow: wrap;margin-top: 16rpx;}
+.distribution-jh-ul-li{flex: 0 0 50%;text-align: center;}
+.jh-icon{height: 100rpx;width: 100rpx;border-radius: 50%;background: linear-gradient(145deg,#f53461, #ff8b3d);line-height: 100rpx;margin: 20rpx auto 10rpx;}
+.jh-icon icon{font-size: 64rpx;color: #fff929;font-weight: 400}
+.jh-text{font-size: 30rpx;margin-top: 4rpx;color: #080808;font-weight: 600;}
+
+.distribution-join{width: 650rpx;margin: 0 auto;position: relative;box-sizing: border-box;padding: 0rpx 50rpx 50rpx;}
+.distribution-join-ul{display: flex;box-sizing: border-box;padding: 0rpx 50rpx 100rpx;}
+.distribution-join-li{flex: 1;display: flex;}
+.join-li-icon{flex: auto;text-align: right;}
+.join-li-icon icon{font-size: 30rpx;margin-right: 20rpx;color: #f53461;}
+.join-li-text{flex: 0 0 90rpx;text-align: left;font-size: 30rpx;line-height: 36rpx;font-weight: 600;}

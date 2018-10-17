@@ -1,0 +1,71 @@
+<!--pages/personal/personal.wxml-->
+<view class='personal'>
+  <navigator url='../login/login' hover-class='none'>
+    <view class='personal-top'>
+      <view class='user-img'>
+        <image src='../images/user-img.png' mode='widthFix'></image>
+      </view>
+      <view class='user-logs'>
+        立即登陆
+      </view>
+    </view>
+  </navigator>
+  <view class="order">
+    <navigator url='assets' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-zichan'></icon>我的资产
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+    <navigator url='coupon' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-youhuiquan'></icon>优惠券
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+    <navigator url='carOwner' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-qiche'></icon>车主服务
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+    <navigator url='collection' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-collect-active'></icon>我的收藏
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+    <navigator url='../distribution/isDistribution' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-fenxiao'></icon>我的分销
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+    <navigator url='help' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-wenhao'></icon>常见问题
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+    <navigator url='' hover-class='none'>
+      <view class='order-topl'>
+        <icon class='iconfont icon-zixun'></icon>意见反馈
+      </view>
+      <view class='order-topr'>
+        <icon class='iconfont icon-left'></icon>
+      </view>
+    </navigator>
+  </view>
+</view>

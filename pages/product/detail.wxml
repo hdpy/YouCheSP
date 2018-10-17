@@ -1,0 +1,321 @@
+<!--pages/product/detail.wxml-->
+<scroll-view scroll-y scroll-top="{{scrollTop}}" style='height:100vh' bindscroll="scroll">
+  <view class='product-1'>
+    <navigator url='../distribution/inviteWay' hover-class='none'>
+      <view class='distribution'>
+        <text class='distribution-text'>2000元现金等你来拿，轻松赚钱!</text>
+        <text class='distribution-btn'>立即赚钱</text>
+      </view>
+    </navigator>
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true" class='index-swiper'>
+      <swiper-item>
+        <image src="https://c5.xinstatic.com/f4/20180905/1616/5b8f90d21c961252352_20.jpg" class="slide-image" mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="https://c5.xinstatic.com/f4/20180905/1616/5b8f90d33a119946740_20.jpg" class="slide-image" mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="https://c5.xinstatic.com/f4/20180905/1616/5b8f90e772607180802_20.jpg" class="slide-image" mode='widthFix'></image>
+      </swiper-item>
+    </swiper>
+    <view class='pro-detail'>
+      <view class='pro-name'>
+        <text class='pro-name-text'>玛莎拉蒂 GranTurismo 2018款 4.2 自动 标准版</text>
+        <view class='collect' bindtap='collectState'>
+          <icon class="iconfont {{collect ? 'icon-collect-active' : 'icon-shoucang'}}"></icon>
+          <view>{{collect ? '已收藏' : '收藏'}}</view>
+        </view>
+      </view>
+      <view class='pro-detail-lable'>
+        <text class='lable-item'>赠送保险</text>
+        <text class='lable-item'>赠送大礼包</text>
+        <text class='original-price'>指导价:89.5万</text>
+      </view>
+      <view class='pro-detail-attr'>
+        <text class='left'>外观白色+内饰黑色</text>
+        <text class='right'>库存充足</text>
+      </view>
+      <view class='price'>
+        <view class='price-text'>
+          <text>10.5</text>万新车开回家</view>
+        <view class='price-detail'>
+          <text>详情</text>
+          <icon class='iconfont icon-left'></icon>
+        </view>
+      </view>
+      <view class='service'>
+        <scroll-view scroll-x>
+          <view class='service-list'>
+            <view class='service-li'>
+              <icon class='iconfont icon-queding'></icon>
+              <text>超低首付</text>
+            </view>
+            <view class='service-li'>
+              <icon class='iconfont icon-queding'></icon>
+              <text>极速提车</text>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <view class='all-line'></view>
+    <view class='model'>
+      <view class='configuration-li configuration-tit'>
+        <text class='configuration-li-l'>更多车型</text>
+      </view>
+      <view class='model-list'>
+        <navigator url='' hover-class='none'>
+          <view class='model-li'>
+            <view class='model-li-left'>玛莎拉蒂 GranTurismo 2018款 4.2 自动 高配版</view>
+            <view class='model-li-right'>首付:15.5万</view>
+          </view>
+        </navigator>
+        <navigator url='' hover-class='none'>
+          <view class='model-li'>
+            <view class='model-li-left'>玛莎拉蒂 GranTurismo 2018款 4.2 自动 豪华版</view>
+            <view class='model-li-right'>首付:21.5万</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+    <view class='by-stages'>
+      <view class='configuration-li configuration-tit'>
+        <text class='configuration-li-l'>分期</text>
+      </view>
+      <view class='by-stages-cont'>
+        <view class='by-stages-contli'>
+          <view class='by-stages-left'>首付</view>
+          <view class='by-stages-right'>
+            <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+              <view class="picker">
+                {{multiArray[0][multiIndex[0]]}}
+                <icon class='iconfont icon-left'></icon>
+              </view>
+            </picker>
+          </view>
+        </view>
+        <view class='by-stages-contli'>
+          <view class='by-stages-left'>分期数</view>
+          <view class='by-stages-right'>
+            <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+              <view class="picker">
+                {{multiArray[1][multiIndex[1]]}}
+                <icon class='iconfont icon-left'></icon>
+              </view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      <view class='by-stages-case'>
+        <view class='case-tit'>分期方案
+          <icon class='iconfont icon-wenhao'></icon>
+        </view>
+        <view class='case-cont'>
+          <view class='case-cont-list'>
+            <view class='case-cont-1'>
+              <text class='case1-t1'>友车自营</text>
+              <text class='case1-t2'>低首付</text>
+              <text class='case1-t2'>资料简单</text>
+              <text class='case1-t3'>售价6.89万</text>
+            </view>
+            <view class='case-cont-2'>
+              首付
+              <text class='case2-t1'>0.69</text>
+              <text class='case2-t2'>万</text> 月付
+              <text class='case2-t1'>2208.25</text>
+              <text class='case2-t2'>元x</text>
+              <text class='case2-t1'>2208.25</text>
+              <text class='case2-t2'>月</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='pro-color'>
+      <view class='configuration-li configuration-tit'>
+        <text class='configuration-li-l'>颜色</text>
+      </view>
+      <view class='color-line'>
+        <view class='color-li active'>茉莉白</view>
+        <view class='color-li'>天空蓝</view>
+      </view>
+    </view>
+  </view>
+  <view class='product-2'>
+    <view class='all-line'></view>
+    <view class='stores'>
+      <view class='stores-top'>
+        <text class='stores-name'>城市门店</text>
+        <text class='stores-all'>全部门店<icon class='iconfont icon-left'></icon></text>
+      </view>
+      <view class='stores-detail'>
+        <view class='stores-detail-img'>
+          <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537964891221&di=672f7ee6842ab23919f388551338d229&imgtype=0&src=http%3A%2F%2Fwww.cnr.cn%2F2013qcpd%2Fwxby%2F201304%2FW020130423350176920186.jpg' mode='widthFix'></image>
+        </view>
+        <view class='stores-detail-text'>
+          <view class='text-p1'>江西南昌青山湖区友车</view>
+          <view class='text-p2'>
+            <icon class='iconfont icon-zengpin'></icon>
+            <text>到店有礼，领券直降</text>
+          </view>
+          <view class='text-p3'>
+            <text>距3.53km | 青山湖区</text>
+          </view>
+          <text class='yuyue'>到店预约</text>
+        </view>
+      </view>
+    </view>
+    <view class='all-line'></view>
+    <view class='configuration'>
+      <view class='configuration-li configuration-tit'>
+        <text class='configuration-li-l'>车辆配置</text>
+      </view>
+      <view class='configuration-li'>
+        <text class='configuration-li-l'>发动机</text>
+        <text class='configuration-li-r'>1.0T 180马力 L4</text>
+      </view>
+      <view class='configuration-li'>
+        <text class='configuration-li-l'>变速箱</text>
+        <text class='configuration-li-r'>CVT无级变速</text>
+      </view>
+      <view class='configuration-li'>
+        <text class='configuration-li-l'>长*宽*高(mm)</text>
+        <text class='configuration-li-r'>4565*1800*1400</text>
+      </view>
+      <view class='configuration-li'>
+        <text class='configuration-li-l'>车身型式</text>
+        <text class='configuration-li-r'>4门5坐三车厢</text>
+      </view>
+      <view class='configuration-li'>
+        <text class='configuration-li-l'>最高速度(km/h)</text>
+        <text class='configuration-li-r'>200</text>
+      </view>
+      <view class='configuration-li'>
+        <text class='configuration-li-l'>燃料形式</text>
+        <text class='configuration-li-r'>汽油</text>
+      </view>
+      <navigator url='allModel' hover-class='none'>
+        <view class='configuration-chakan'>
+          <text>查看全部配置</text>
+          <icon class='iconfont icon-right'></icon>
+        </view>
+      </navigator>
+    </view>
+    <view class='all-line'></view>
+    <view class='pro-img-detail'>
+
+    </view>
+  </view>
+  <view class='product-3'>
+    <view class='step4'>
+      <view class='step4-tit'>
+        轻松四步 开走新车
+      </view>
+      <view class='step4-li'>
+        <view class='step4-li-icon'>
+          <icon class='iconfont icon-1'></icon>
+        </view>
+        <view class='step4-li-text'>
+          <view class='step4-t1'>在线预约</view>
+          <view class='step4-t2'>选中意向车型，在线提交手机号</view>
+          <view class='step4-t2'>销售顾问将在24小时内为您提供1对1服务</view>
+        </view>
+      </view>
+      <view class='step4-li'>
+        <view class='step4-li-icon'>
+          <icon class='iconfont icon-shuzi2'></icon>
+        </view>
+        <view class='step4-li-text'>
+          <view class='step4-t1'>签订协议</view>
+          <view class='step4-t2'>购车资格评估通过后确定购买车型</view>
+          <view class='step4-t2'>在线签订购车协议并支付订金</view>
+        </view>
+      </view>
+      <view class='step4-li'>
+        <view class='step4-li-icon'>
+          <icon class='iconfont icon-3'></icon>
+        </view>
+        <view class='step4-li-text'>
+          <view class='step4-t1'>支付费用</view>
+          <view class='step4-t2'>根据金融复审评估结果确定首付和月供方案</view>
+          <view class='step4-t2'>支付首付和履约保证金</view>
+        </view>
+      </view>
+      <view class='step4-li'>
+        <view class='step4-li-icon'>
+          <icon class='iconfont icon-4'></icon>
+        </view>
+        <view class='step4-li-text'>
+          <view class='step4-t1'>坐等提车</view>
+          <view class='step4-t2'>车辆完成保险、上牌等手续后</view>
+          <view class='step4-t2'>销售顾问将联系您提车，请保持手机畅通</view>
+        </view>
+      </view>
+    </view>
+    <view class='all-line'></view>
+    <view class='instructions'>
+      <view class='step4-tit'>
+        购买须知
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>车源供应</view>
+        <view class='step4-t2'>友车由各大汽车品牌厂商直接供应，车源皮质有保障</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>购车所需资料</view>
+        <view class='step4-t2'>您只需要提供有效期内的驾驶证。并线上进行资格审核</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>车辆归属</view>
+        <view class='step4-t2'>友车由各大汽车品牌厂商直接供应，车源皮质有保障</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>车源供应</view>
+        <view class='step4-t2'>在还贷期间，车辆及车牌抵押给公司，贷款结清后可过户</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>购置税</view>
+        <view class='step4-t2'>首年费用已经包含购置税，您无需再额外支付费用</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>车源供应</view>
+        <view class='step4-t2'>友车由各大汽车品牌厂商直接供应，车源皮质有保障</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>购车所需资料</view>
+        <view class='step4-t2'>您只需要提供有效期内的驾驶证。并线上进行资格审核</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>车辆归属</view>
+        <view class='step4-t2'>友车由各大汽车品牌厂商直接供应，车源皮质有保障,首年费用已经包含购置税，您无需再额外支付费用</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>车源供应</view>
+        <view class='step4-t2'>在还贷期间，车辆及车牌抵押给公司，贷款结清后可过户</view>
+      </view>
+      <view class='instructions-li'>
+        <view class='step4-t1'>购置税</view>
+        <view class='step4-t2'>首年费用已经包含购置税，您无需再额外支付费用</view>
+      </view>
+    </view>
+    <view class='all-line'></view>
+  </view>
+</scroll-view>
+<view class='product-bottom'>
+  <view class='product-bottom-tell'>
+    <icon class='iconfont icon-dianhua'></icon>
+    <view class='tell-text'>电话咨询</view>
+  </view>
+  <view class='product-bottom-btn btn1'>
+    <navigator url='deposit'>立即购买</navigator>
+  </view>
+  <view class='product-bottom-btn btn2'>
+    
+    <navigator url='deposit'>分期购买</navigator>
+  </view>
+</view>
+<view class='product-top' wx:if="{{showTop}}">
+  <view class="product-top-li {{index === topNavIndex?'active':''}}" wx:for="{{topNav}}" bindtap='topNav' data-index='{{index}}'>
+    <text>{{item}}</text>
+  </view>
+</view>

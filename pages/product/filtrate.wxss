@@ -1,0 +1,11 @@
+/* pages/product/filtrate.wxss */
+.filtrate-cont{height: calc(100vh - 120rpx)}
+.filtrate-list{border-bottom: 1rpx solid #ececf2;}
+.filtrate-tit{height: 80rpx;line-height: 80rpx;font-size: 28rpx;font-weight: 600;padding-left: 37.5rpx;}
+.filtrate-li-ul{display: flex;flex-flow: wrap;}
+.filtrate-li-li{flex: 0 0 200rpx;height: 76rpx;line-height: 76rpx;font-size: 24rpx;background-color: #f1f4f7;color: #5b5e7b;margin-left: 37.5rpx;text-align: center;margin-bottom: 30rpx;box-sizing: border-box;font-weight: 600}
+.filtrate-li-li.active{border: 1rpx solid #5f93ff;color: #5f93ff;background-color: rgba(95, 147, 255, .1) }
+.filtrate-btn{height: 120rpx;display: flex;border-top: 1rpx solid #ececf2;box-sizing: border-box;}
+.btn{flex: 0 0 300rpx;text-align: center;font-size: 26rpx;height: 80rpx;line-height: 80rpx;margin: 20rpx 0 20rpx 50rpx;font-weight: 600;}
+.reset{background-color: #ececf2;color: #8d91ac;}
+.look{background-color: #5f93ff;color: #fff;}

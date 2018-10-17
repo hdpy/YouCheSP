@@ -1,0 +1,22 @@
+<!--pages/distribution/rules.wxml-->
+<view class='rules'>
+  <view class='rules-tit'>分销活动规则</view>
+  <view class='rules-cont'>
+    <view class='rules-cont-tit'>1.参与条件:</view>
+    <view class='rules-cont-text'>凡是拥有支付宝账号的用户均有机会加入我们的分销。</view>
+    <view class='rules-cont-tit'>2.活动期间奖励规则:</view>
+    <view class='rules-cont-text'>（1）凡是拥有支付宝账号的用户均有机会加入我们的分销。</view>
+    <view class='rules-cont-text'>（2）凡是拥有支付宝账号的用户均有机会加入我们的分销。</view>
+    <view class='rules-cont-text'>（3）活动时间: 长期有效。</view>
+    <view class='rules-cont-tit'>3.非活动内奖励规则:</view>
+    <view class='rules-cont-text'>（1）一级返现3000元</view>
+    <view class='rules-cont-text'>（2）一级返现2000元</view>
+    <view class='rules-cont-text'>（3）一级返现1000元</view>
+    <view class='rules-cont-tit'>4.奖励发放方式:</view>
+    <view class='rules-cont-text'>凡是拥有支付宝账号的用户均有机会加入我们的分销。</view>
+    <view class='rules-cont-tit'>5.邀请方式:</view>
+    <view class='rules-cont-text'>凡是拥有支付宝账号的用户均有机会加入我们的分销。</view>
+    <view class='rules-cont-tit'>6.重要提示:</view>
+    <view class='rules-cont-text'>使用不正当手段（）获得奖励的，一经发现，取消资格</view>
+  </view>
+</view>

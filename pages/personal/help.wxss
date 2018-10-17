@@ -1,0 +1,6 @@
+/* pages/personal/help.wxss */
+.help{padding: 10rpx 40rpx;}
+.item{height: auto}
+.item-tit{line-height: 80rpx;font-size: 30rpx;color: #262626;border-bottom: 1rpx solid #ddd;}
+.item-icon{font-size: 60rpx;color: #e3e5e9;font-weight: bold;margin-right: 10rpx}
+.item-cont{font-size: 30rpx;color: #8b91a0;}

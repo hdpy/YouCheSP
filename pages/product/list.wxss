@@ -1,0 +1,35 @@
+/* pages/product/list.wxss */
+.index-top{width: 100%;display: flex;height: 100rpx;}
+.search{height: 64rpx;margin: 18rpx 0rpx;flex: auto;position: relative;padding-right: 28rpx;}
+.search input{height: 64rpx;line-height: 64rpx;border: 0;background-color: #f8f8f8;border-radius: 30rpx;font-size: 24rpx;color: #979797;padding-left: 70rpx;font-weight: bold}
+.search icon{position: absolute;top: 14rpx;left: 26rpx;}
+.place{color: #b1b1b1;}
+.address{flex: 0 0 150rpx;color: #3f4359;font-size: 28rpx;line-height: 100rpx;text-align: center}
+.address icon{font-size: 24rpx;font-weight: bold;margin-left: 10rpx}
+
+
+.select-class{display: flex;height: 80rpx;}
+.select-class navigator{flex: 1;line-height: 80rpx;text-align: center}
+.select-li text{font-size: 28rpx;color: #3f4359;}
+.select-li icon{font-size: 28rpx;color: #3f4359;display: initial;margin-left: 10rpx;}
+
+.search-name{display: flex;background-color: #f8f8f8;padding: 25rpx 15rpx;}
+.search-name-item icon{font-size: 24rpx;color: #888888;display: initial;margin-left: 10rpx;position: absolute;top: -10rpx;}
+.search-name-text{flex: auto;}
+.search-name-item{height: 50rpx;line-height: 50rpx;font-size: 24rpx;color: #888888;padding: 0 50rpx 0 20rpx;background-color: #fff;display: inline-block;position: relative}
+.search-name-reset{flex: 0 0 100rpx;height: 50rpx;line-height: 50rpx;font-size: 28rpx;color: #888888;text-align: right;}
+.search-name-reset icon{font-size: 24rpx;color: #888888;display: initial;margin-right: 10rpx;position: relative;top: -10rpx;}
+
+.pro-list{height: calc(100vh - 284rpx);}
+
+.product-LIST{display: flex;flex-flow: wrap;}
+.product-LIST navigator{flex: 0 0 calc(50% - 60rpx);margin: 15rpx 30rpx;}
+.product-LIST-img{height: 180rpx;overflow: hidden;margin: 30rpx 0;}
+.product-LIST-img image{width: 100%;}
+.product-index .title-h3{margin: 36rpx 0;}
+.product-LIST-name{font-size: 26rpx;color: #3f4359;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;word-break: break-all;-webkit-line-clamp:2;-webkit-box-orient: vertical;line-height: 40rpx}
+.product-LIST-label icon{margin-right: 12rpx;font-size: 32rpx;color: #ff2950}
+.product-LIST-label .text-label{color:#81c645;font-size: 22rpx;border: 1rpx solid #81c645;line-height: 32rpx;padding: 0 5rpx;}
+.product-LIST-attr{display: flex;line-height: 30rpx;margin-top: 20rpx}
+.price1{flex: 1;font-size: 28rpx;color: #ff781a;}
+.price2{flex: 1;text-align: right;font-size: 24rpx;color: #8f93ad}

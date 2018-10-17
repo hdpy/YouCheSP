@@ -1,0 +1,21 @@
+<!--pages/distribution/inviteWay.wxml-->
+<view class='inviteWay'>
+  <view class='inviteWay-li'>
+    <view class='text1'>邀请好友购车</view>
+    <view class='text2'>每台车可赚3000元佣金</view>
+    <view class='inviteWay-btn'>
+      <button class='btn1'>
+        <icon class='iconfont icon-zengpin'></icon>
+        <text>生成二维码</text>
+      </button>
+      <button class='btn1'>
+        <icon class='iconfont icon-zengpin'></icon>
+        <text>邀请好友购车</text>
+      </button>
+    </view>
+  </view>
+  <view class='show-tell'>
+    <icon size='16' type='success' color='#474443'></icon>
+    <text>邀请时显示我的手机号码</text>
+  </view>
+</view>

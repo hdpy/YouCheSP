@@ -1,0 +1,108 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信登陆 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+    <view class='index-top'>
+        <view class='address'>
+            南昌
+            <icon class='iconfont icon-a_down'></icon>
+        </view>
+        <view class='search'>
+            <input type='text' placeholder='搜索其他品牌汽车' placeholder-class='place'></input>
+            <icon type='search' color='#626262' size='18'></icon>
+        </view>
+        <view class='message'>
+            <icon class='iconfont icon-zixun'></icon>
+        </view>
+    </view>
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true" class='index-swiper'>
+        <block wx:for="{{banner}}">
+            <swiper-item>
+                <image src="{{item.img_path}}" class="slide-image" mode='widthFix'></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class='index-nav'>
+        <view class='title-h3'>
+            <view class='title-h3-class'>购车快选</view>
+        </view>
+        <view class='nav-class'>
+            <view class='nav-class-li first-li'>{{price_range.p_info.name}}</view>
+            <view class='nav-class-li' wx:for="{{price_range.list}}">{{item.name}}</view>
+        </view>
+        <view class='nav-class'>
+            <view class='nav-class-li first-li'>{{types.p_info.name}}</view>
+            <view class='nav-class-li' wx:for="{{types.list}}">{{item.name}}</view>
+        </view>
+    </view>
+    <view class='all-line'></view>
+    <view class='index-nav'>
+        <view class='title-h3'>
+            <view class='title-h3-class'>热门推荐</view>
+            <view class='more'>更多 ></view>
+        </view>
+        <view class='nav-class1'>
+            <view class='nav-class-li1' wx:for="{{brand.list}}">
+                <image src='{{item.img_url}}' mode='widthFix'></image>
+                <view>{{item.name}}</view>
+            </view>
+        </view>
+    </view>
+    <view class='all-line'></view>
+    <view class='new-pro-w'>
+        <view class='new-pro'>
+            <view class='new-pro-li' wx:for="{{new_item}}">
+                <view class='new-p1'>新车上架</view>
+                <view class='new-p2'>{{item.title}}</view>
+                <view class='new-pro-img'>
+                    <image src='{{item.img_url}}' mode='widthFix'></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='all-line'></view>
+    <view class='product'>
+
+        <view class='product-item item1' wx:for="{{show_item_cate_item}}">
+            <view class='product-item-top'>
+                <view class='product-top-l'>
+                    <view class='product-top-l-p1'>{{item.cate.name}}</view>
+                    <view class='product-top-l-p2'>{{item.cate.subheading}}</view>
+                </view>
+                <view class='product-top-r'>
+                    <navigator>
+                        更多>
+                    </navigator>
+                </view>
+            </view>
+            <view class='product-item-cont'>
+                <view class='pro-cont-li' wx:for="{{item.item}}" wx:for-item="itemInfo">
+                    <view class='pro-cont-li-img'>
+                        <image src='{{itemInfo.img_url}}' mode='widthFix'></image>
+                        <!-- <text class='lijian'>立省8945</text> -->
+                    </view>
+                    <view class='pro-cont-li-p1'>指导价：￥{{itemInfo.price}}</view>
+                    <view class='pro-cont-li-p2'>定金：￥{{itemInfo.deposit}}</view>
+                    <view class='pro-cont-li-p3'>{{itemInfo.title}}</view>
+                    <!-- <text class='pro-cont-li-p4'>本周爆款</text> -->
+                </view>
+            </view>
+        </view>
+
+        <view class='index-bottom'>
+            <view class='index-bottom-li'>
+                <icon class='iconfont icon-qiche'></icon>
+                <text>全部车型</text>
+            </view>
+            <view class='index-bottom-li'>
+                <icon class='iconfont icon-shoucang'></icon>
+                <text>联系客服</text>
+            </view>
+        </view>
+    </view>
+</view>

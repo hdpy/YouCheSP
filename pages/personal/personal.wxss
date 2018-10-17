@@ -1,0 +1,49 @@
+/* pages/personal/personal.wxss */
+.order>navigator {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #f7f7f7;
+  display: flex;
+  padding-left: 2.5%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.order-topl {
+  font-size: 26rpx;
+  color: #333;
+  flex: 0 0 94%;
+}
+
+.order-topl icon {
+  font-size: 30rpx;
+  margin-right: 10rpx;
+  color: #666666;
+}
+
+.order-topr icon {
+  font-size: 30rpx;
+  color: #a5a5a5;
+}
+
+.order-topr {
+  font-size: 24rpx;
+  color: #a5a5a5;
+  flex: 0 0 right;
+  text-align: right;
+}
+
+.order-topl text {
+  margin-right: 10rpx;
+}
+
+.order-topr text {
+  margin-left: 10rpx;
+}
+
+.personal{background-color:#f5f5f5;width: 100%;min-height: 100vh}
+.personal-top{height: 220rpx;background: linear-gradient(to right,#7898ff, #5f93ff);display: flex;}
+.user-img{height: 100rpx;width: 100rpx;border-radius: 50%;margin: 60rpx 40rpx 60rpx 30rpx;}
+.user-img image{width: 100%;}
+
+.user-logs{line-height: 220rpx;color: #ffffff;font-weight: 700;font-size: 30rpx;}
