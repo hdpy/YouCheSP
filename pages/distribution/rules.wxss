@@ -1,5 +1,0 @@
-/* pages/distribution/rules.wxss */
-.rules{min-height: 100vh;width: 100%;box-sizing: border-box;padding: 30rpx;background: linear-gradient(145deg,#fcfbf9, #fcfbf9);}
-.rules-tit{color: #020001;font-size: 36rpx;font-weight: bold;text-align: center;margin: 50rpx 0 80rpx;}
-.rules-cont-tit{font-size: 30rpx;font-weight: 700;margin-top: 40rpx;color: #ff5c09;line-height: 40rpx;margin-bottom: 10rpx;}
-.rules-cont-text{color: #040203;font-size: 28rpx;font-weight: 700;line-height: 45rpx;}
